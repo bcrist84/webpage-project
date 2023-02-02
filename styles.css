@@ -47,6 +47,8 @@ a {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .kratos {
@@ -78,8 +80,8 @@ button {
 
 img {
     display: flex;
-    margin-left: auto;
-    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
     margin-top: 50px;
     padding: 8px;
 }
