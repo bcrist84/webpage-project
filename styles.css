@@ -1,4 +1,8 @@
 body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -39,7 +43,8 @@ a {
 
 .hero {
     background-color: #1f2937;
-    height: 350px;
+    width: 100%;
+    height: 400px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -47,18 +52,32 @@ a {
 
 .kratos {
     color: #f9faf8;
+    display: flex;
     font-size: 48px;
     margin-left: 50px;
+    margin-top: 50px;
 }
 
 .text {
     color: #e5e7eb;
+    display: flex;
     font-size: 18px;
     margin-left: 50px;
     width: 300px;
 }
 
 img {
+    display: flex;
     margin-left: auto;
     margin-right: 50px;
+    margin-top: 50px;
+    padding: 8px;
+}
+
+.container {
+    display: flex;
+}
+
+.subtext {
+    display: flex;
 }
