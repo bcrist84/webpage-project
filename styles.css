@@ -8,7 +8,6 @@ body {
 
 .header {
     background-color: #1f2937;
-    width: 100%;
     height: 50px;
     display: flex;
     align-items: center;
@@ -42,7 +41,6 @@ a {
 
 .hero {
     background-color: #1f2937;
-    width: 100%;
     height: 450px;
     display: flex;
     flex-direction: column;
@@ -82,7 +80,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 25px;
     padding: 8px;
 }
 
@@ -90,7 +88,6 @@ img {
     color: #1f2937;
     font-size: 36px;
     font-weight: bolder;
-    width: 100%;
     height: 20px;
     padding: 8px;
     margin-top: 20px;
@@ -108,15 +105,13 @@ img {
 .subtext {
     display: flex;
     justify-content: center;
-    padding: 0;
-    margin-right: 50px; 
+    padding: 0; 
 }
 
 .say {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    width: 100%;
     height: 200px;
 }
 
@@ -171,11 +166,8 @@ img {
 footer {
     background-color: #1f2937;
     color: #f9faf8;
-    width: 100%;
     height: 50px;
     text-align: center; 
     margin-top: 50px;
-    position: fixed;
-    bottom: 0;
     padding: 10px 10px 0px 10px;
 }
